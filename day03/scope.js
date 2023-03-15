@@ -4,7 +4,6 @@ function sum(a,b){
 }
 sum(4,5);
 // this will throw reference error
-console.log(result);
 {
     // block scope
 }
@@ -20,6 +19,7 @@ console.log("Z::",z);
 function dosomething(){
     // function scope
     var k=9;
+console.log("k",k);
+
 }
 dosomething();
-console.log("k",k);
