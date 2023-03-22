@@ -1,3 +1,6 @@
+
+const numbers=[2,4,5,7];
+
 const [first,...restNumbers]=numbers;
 console.log("restNumbers:",restNumbers);
 
